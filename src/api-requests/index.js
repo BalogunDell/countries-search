@@ -1,6 +1,6 @@
 import Queries from '../queries';
 
-const api = 'https://api.everbase.co/graphql?apikey=alpha' // API should be exposed actually
+const api = 'https://api.everbase.co/graphql?apikey=alpha' // API key shouldn't be exposed actually
 
 export const search = async searchKey => {
   const response = await fetch(api, {

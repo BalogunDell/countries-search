@@ -36,7 +36,6 @@
 
 .card-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 flex-wrap: wrap;
   flex-direction: row;
@@ -54,6 +53,7 @@ flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   overflow: auto;
+  margin: 20px;
 }
 
 .card > h1 {
